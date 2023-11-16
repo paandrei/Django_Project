@@ -1,0 +1,32 @@
+.class_input{
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+   
+}
+.class_input_warning{
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(247, 205, 205, 0.562);
+}
+
+.class_text{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.warning{
+    box-shadow: 3px 2px 6px orange;
+}
+.success{
+    box-shadow: 3px 2px 6px green;
+}
+
+.back-img{
+    background-image: url('../Photo/fundal2.png');
+    background-size: 70%;
+    background-position:right;
+     background-position-y: top;
+  }
+  

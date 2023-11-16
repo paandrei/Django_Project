@@ -1,0 +1,33 @@
+.history_title{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px rgb(56, 54, 54);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actionMade{
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.details{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.register_image{
+    background-image: url('../Photo/fundal1.png');
+    background-size: 50%;
+    background-repeat:repeat;
+    background-position: top;
+}

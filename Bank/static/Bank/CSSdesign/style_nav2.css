@@ -1,0 +1,311 @@
+
+.ul1 {
+    list-style-type:none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 2px black;
+  }
+.ul2 {
+    width: 180px;
+    margin-left: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 2px black;
+    
+}
+.ul3 {
+  margin-top: 100px;
+  padding: 20px;
+  height: fit-content;
+  list-style-type:none;
+  border-radius: 60px;
+  background-color: #F3DEBA;
+  box-shadow: 0px 2px 2px black;
+  opacity: 80%;
+  justify-content: center;
+}
+.ul4 {
+  height: 300px;
+  width: 400px;
+  list-style-type:none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  border-radius: 40px;
+  background-color: #ffff;
+  box-shadow:0px 2px 2px black;
+
+}
+
+.ul5 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: fit-content;
+  list-style-type:none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 80px;
+  background-color: #ffff;
+  font-size: larger;
+  box-shadow:0px 2px 10px black;
+
+}
+.li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 170px;
+    float: left;
+    font-size: large;
+    justify-content: center;
+  }
+li a {
+    width: 150px;
+    height: 20px;
+    color: black;
+    text-decoration: none;
+  }
+li a:hover:not(.active) {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 3px 3px 10px #675D50;
+    background-color: #F3DEBA;
+  }
+
+  
+.circle {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: none;
+    border-style: dotted;
+    box-shadow: 0px 100px 50px -40px #ABC4AA;
+    
+}
+a:hover:not(.active) img   
+  {
+    box-shadow: 0px 100px 50px -40px #675D50;
+}
+.fixedContainer2 {
+  background-color:#ffff;
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+}
+.fixedContainer {
+  background-color:#ffff;
+  width: auto;
+  position: fixed;
+  padding:0em;
+ 
+  top: 20%;
+ 
+}
+.centered_image{
+  background-image: url('../Photo/fundal1.png');
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.centered_image2{
+  background-image: url('../Photo/fundal2.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.profileCard {
+  height: 500px;
+  width: 28%;
+  border-radius: 50px;
+  margin-left: 1%;
+  margin-right: 4%;
+  justify-content: center;
+  box-shadow:4px 4px 10px black;
+}
+.personsName {
+  width: fit-content;
+  margin-top: 30px;
+  list-style-type:none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 10px black;
+  
+}
+.personsPicture {
+  padding-top: 10px;
+  width: fit-content;
+  height: fit-content;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: none;
+  
+}
+
+.personsDescription {
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  list-style-type:none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+}
+.function{
+  width: fit-content;
+  margin-top: 30px;
+  list-style-type:none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.leadeship_background{
+  background-image: url("../Photo/FundalLeadership.png");
+}
+
+.contact_background{
+  background-image: url('../Photo/fundal2.png');
+  background-size: 80%;
+  background-repeat: space;
+}
+
+.contact_background2{
+  background-image: url('../Photo/fundal2.png');
+  background-size: 70%;
+  background-position:right;
+  background-position-y: top;
+
+}
+
+
+div{
+  font-family: "Trirong", serif;
+}
+
+.actionto {
+  width: 300px;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.forcontent{
+  margin-top: 20px;
+  width: 50%;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px black;
+}
+.textmail{
+  width:15%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 2px 2px black;
+}
+.button1{
+  width: 100px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px black;
+}
+
+.back-image{
+  background-image: url('../Photo/fundal2.png');
+}
+
+.UsernameCard {
+  height: 400px;
+  
+  background-image: linear-gradient(to bottom, white, #ABC4AA);
+  border-radius: 50px;
+  justify-content: center;
+  box-shadow:4px 4px 10px black;
+}
+
+.userBalance {
+  width: fit-content;
+  justify-content: center;
+  border-radius: 10px;
+
+  background-color: white;
+  box-shadow: 0px 2px 10px black;
+}
+
+.Deposit {
+  height: 200px;
+  background-image: linear-gradient(to bottom, white, #f3ecdf);
+  border-radius: 50px;
+  justify-content: center;
+  box-shadow:4px 4px 10px black;
+}
+
+.DepositName{
+  width: 200px;
+  padding: 5px;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #675D50;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px black;
+}
+.DepositButton{
+  width:100px;
+  padding: 5px;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 2px 6px black;
+}
+
+.error_amount{
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  font-style: italic;
+  
+}
